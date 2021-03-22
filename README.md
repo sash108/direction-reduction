@@ -14,7 +14,7 @@ To run the project
     mvn clean install
     
     
-    -- Test it like ordinary jar project like below:
+    -- Test it like ordinary jar project like example cases below:
     java -jar target/direction-reduction-0.0.1-SNAPSHOT.jar  "NORTH" "SOUTH"
         // return []
     java -jar target/direction-reduction-0.0.1-SNAPSHOT.jar  "NORTH"

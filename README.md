@@ -12,11 +12,13 @@ spring-boot-starter artifact is being used explicitly with the reason. This smal
 To run the project
     
     mvn clean install
+    
+    
     -- Test it like ordinary jar project like below:
     java -jar target/direction-reduction-0.0.1-SNAPSHOT.jar  "NORTH" "SOUTH"
         // return []
     java -jar target/direction-reduction-0.0.1-SNAPSHOT.jar  "NORTH"
-        // return [NORTH]
+        // return [NORTH]        
     java -jar target/direction-reduction-0.0.1-SNAPSHOT.jar
         // return []
     java -jar target/direction-reduction-0.0.1-SNAPSHOT.jar  "NORTH" "SOUTH" "EAST" "WEST"
